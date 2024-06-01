@@ -10,12 +10,6 @@ export const ConteinerTerc = () => {
                 <span class="title4">Descobrir</span>
                 <span class="Subtitulo3">Alguns de nossos posts mais acessados</span>
             </div>
-            <div class="containerbotao">
-                <button type="button" class="stylebtnsec2"><img src={setas} class="iconSetas" alt=""/>
-                </button>
-                <button type="button" class="stylebtnsec2"><img src={setas} class="iconSetas seta2" alt=""/>
-                </button>
-            </div>
 
         </div>
         <div class="containercard1section3">

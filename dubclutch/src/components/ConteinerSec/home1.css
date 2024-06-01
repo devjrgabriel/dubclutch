@@ -1,7 +1,9 @@
 .section2 {
-    background: url(../../image/image2home.png);
+    background: url(../../image/background-DI.gif);
     width: 100%;
     background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,39 +12,48 @@
 
 .containerTextos2 {
     width: 70%;
-    padding-top: 2rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title2 {
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-weight: bold;
 }
 
 
 .containercard1 {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 80%;
     min-height: 35rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .cardssection {
-    background-color: rgba(255, 255, 255, 0.03);
+    filter: saturate(0)  brightness(0.3);
+    background-color: rgba(23, 22, 22, 0.03);
     backdrop-filter: blur(0.6rem);
     border: 1px solid rgba(255, 255, 255, 0.13);
-    width: 28%;
+    width: 26%;
     max-height: 25rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
     align-items: center;
+    transition: all 0.6s;
+}
+
+.cardssection:hover{
+    filter: saturate(1);
+    background-color: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 0 10px #B9B9B9;
+    transform: translateY(-3.5rem);
 }
 
 .textcardSection2 {
@@ -53,8 +64,9 @@
 }
 
 .imgcardsection2 {
-    width: 80%;
-    height: 16rem;
+    aspect-ratio: 16/9;
+    width: 85%;
+    height: 18rem;
 }
 
 .titlecards {
@@ -86,6 +98,199 @@
     width: 20%;
 }
 
-.align-self {
-    align-self: self-start;
+
+@media (min-width:320px) and (max-width: 480px){
+    .section2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 85vh;
+    }
+
+    .containerTextos2{
+        padding-top: 2rem;
+    }
+
+    .title2{
+        width: 27rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .containercard1{
+        position: relative;
+        bottom: 3rem;
+        width: 97%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .cardssection{
+        padding: 0.3rem;
+        flex-direction: row;
+        max-height: 8rem;
+        width: 95%;
+    }
+
+    .cardssection:hover{
+        transform: perspective(20rem) translate3d(0, 0, 10px);
+    }
+
+    .imgcardsection2{
+        max-height: 8rem;
+        width: 27%;
+        margin-right: 1rem;
+    }
+
+    .titlecards{
+        font-size: 1.3rem;
+    }
+
+    .subtitulocards{
+        font-size: 1.1rem;
+    }
+
+    .whpstyle{
+        width: 30%;
+    }
+
+    .whpstyletext{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .section2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containerTextos2{
+        padding-top: 1rem;
+    }
+
+    .title2{
+        width: 35rem;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .containercard1{
+        margin-top: -2rem;
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .cardssection{
+        padding: 0.5rem;
+        flex-direction: row;
+        max-height: 9rem;
+        width: 95%;
+    }
+
+    .cardssection:hover{
+        transform: perspective(20rem) translate3d(0, 0, 10px);
+    }
+
+    .imgcardsection2{
+        max-height: 9rem;
+        width: 22%;
+        margin-right: 1rem;
+    }
+
+    .titlecards{
+        font-size: 1.5rem;
+    }
+
+    .subtitulocards{
+        font-size: 1.2rem;
+    }
+
+    .whpstyle{
+        width: 30%;
+    }
+
+    .whpstyletext{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .section2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containerTextos2{
+        padding-top: 2rem;
+    }
+
+    .title2{
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .containercard1{
+        margin-top: 0;
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .cardssection{
+        padding: 0.5rem;
+        flex-direction: row;
+        max-height: 9rem;
+        width: 95%;
+    }
+
+    .cardssection:hover{
+        transform: perspective(20rem) translate3d(5px, 0, 10px);
+    }
+
+    .imgcardsection2{
+        max-height: 9rem;
+        width: 20%;
+        margin-right: 1rem;
+    }
+
+    .titlecards{
+        font-size: 1.5rem;
+    }
+
+    .subtitulocards{
+        font-size: 1.2rem;
+    }
+
+    .whpstyle{
+        width: 30%;
+    }
+
+    .whpstyletext{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .containercard1{
+        margin-top: 0;
+        width: 90%;
+    }
+
+    .cardssection{
+        width: 28%;
+    }
+
+    .cardssection>img{
+        max-height: 20rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .cardssection{
+        width: 28%;
+    }
 }

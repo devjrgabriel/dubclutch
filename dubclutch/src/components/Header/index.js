@@ -15,7 +15,6 @@ export default function Header() {
                 <Link className="item-nav active" to="/">Home</Link>
                 <Link className="item-nav" to="/" >Stages</Link>
                 <Link className="item-nav" to="/" >Onde comprar</Link>
-                <Link className="item-nav" to="/" >Pricing</Link>
             </div>
             <div>
                 <button className="botaoNavbar">

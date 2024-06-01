@@ -3,6 +3,8 @@
     background: url(../../image/image1home.png);
     width: 100%;
     background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +21,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .title4 {
@@ -29,77 +31,184 @@
 
 .Subtitulo3 {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     letter-spacing: 0.2rem;
     color: #7D7E80;
 }
 
-.containerbotao {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    width: 13%;
-}
-
-.stylebtnsec2 {
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    background-color: #00000000;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
-.iconSetas {
-    width: 2rem;
-    height: 2rem;
-}
-
-.seta2 {
-    transform: scaleX(-1)
-}
-
 .containercard1section3 {
-    margin-top: 3rem;
-    width: 86%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cardssection3 {
-    background-size: 100% 100%;
-    width: 22%;
-    min-height: 23rem;
+    margin-top: 2rem;
+    width: 70%;
+    height: 26rem;
     display: flex;
     justify-content: center;
 }
 
+.cardssection3 {
+    background-size: 100% 100%;
+    box-shadow:0px 0px 0px 4px #131313 inset;
+    width: 19%;
+    min-height: 23rem;
+    display: flex;
+    justify-content: center;
+    filter: saturate(0);
+    transition: all 0.4s;
+}
+
+.cardssection3:hover{
+    width: 32%;
+    filter: saturate(1.2);
+    transition: all 0.4s;
+}
+
 .titlecardsection3 {
-    margin-top: 100%;
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    color: #75d85c;
+    backdrop-filter: blur(0.2rem);
+    border-radius: 0rem;
+    text-align: center;
+    padding-top: 100%;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
     text-shadow: 0 0 0.8rem #000000;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #cdcdcd;
+    transition: all 0.8s;
+}
+
+.titlecardsection3:hover{
+    backdrop-filter: blur(0rem);
+    font-size: 1.8rem;
+    transition: all 0.8s;
 }
 
 .bkcard1 {
     background: url(../../image/Image\ placeholder.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bkcard2 {
     background: url(../../image/Snapinsta\ 4.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bkcard3 {
     background: url(../../image/image\ 9.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .bkcard4 {
     background: url(../../image/image\ 10.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width:320px) and (max-width: 480px){
+    .title4{
+        font-size: 1.8rem;
+    }
+
+    .Subtitulo3{
+        font-size: 0.9rem;
+    }
+
+    .containercard1section3{
+        width: 90%;
+    }
+
+    .cardssection3{
+        width: 25%;
+        min-height: 5rem;
+    }
+
+    .cardssection3:hover{
+        width: 60%;
+    }
+
+    .titlecardsection3{
+        font-size: 1.4rem;
+        padding-left: 50%;
+        padding-top: 0%;
+        writing-mode:vertical-lr;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .title4{
+        font-size: 2.3rem;
+    }
+
+    .Subtitulo3{
+        font-size: 1.1rem;
+    }
+
+    .containercard1section3{
+        width: 90%;
+    }
+
+    .cardssection3{
+        width: 25%;
+        min-height: 5rem;
+    }
+
+    .cardssection3:hover{
+        width: 60%;
+    }
+
+    .titlecardsection3{
+        font-size: 1.4rem;
+        padding-left: 50%;
+        padding-top: 0%;
+        writing-mode:vertical-lr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px){
+    .title4{
+        font-size: 2.5rem;
+    }
+
+    .containercard1section3{
+        width: 80%;
+    }
+
+    .cardssection3{
+        width: 25%;
+    }
+
+    .cardssection3:hover{
+        width: 45%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+
+    .title4{
+        font-size: 2.5rem;
+    }
+
+    .containercard1section3{
+        width: 80;
+    }
+
+    .cardssection3{
+        width: 30%;
+    }
+    
+    .cardssection3:hover{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .cardssection3{
+        width: 22%;
+    }
+
+    .cardssection3:hover{
+        width: 35%;
+    }
 }
