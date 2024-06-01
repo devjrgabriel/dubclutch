@@ -12,16 +12,16 @@ export function Header() {
             </div>
 
             <div>
-                <Link className="item-nav active" to="/">Home</Link>
-                <Link className="item-nav" to="/" >Stages</Link>
-                <Link className="item-nav" to="/" >Onde comprar</Link>
+                <Link className="item-nav active" to="/Home">Home</Link>
+                <Link className="item-nav" to="/Home" >Stages</Link>
+                <Link className="item-nav" to="/Home" >Onde comprar</Link>
             </div>
             <div>
-                <button className="botaoNavbar">
-                    <Link to="/Login">
+                <Link to="/">
+                    <button className="botaoNavbar">
                         Entrar
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </nav>
 
