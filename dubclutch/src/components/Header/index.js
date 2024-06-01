@@ -13,8 +13,7 @@ export function Header() {
 
             <div>
                 <Link className="item-nav active" to="/Home">Home</Link>
-                <Link className="item-nav" to="/" >Stages</Link>
-                <Link className="item-nav" to="/" >Onde comprar</Link>
+                <Link className="item-nav" to="/Teste" >Teste</Link>
             </div>
             <div>
                 <Link to="/">

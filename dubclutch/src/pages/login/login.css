@@ -12,9 +12,7 @@ body {
     background-size: cover;
     
     background-repeat: no-repeat;
-    /*animation: gradientBackground 15s ease infinite;*/
 }
-
 
 .login-container {
     position: absolute;

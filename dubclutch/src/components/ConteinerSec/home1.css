@@ -16,8 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 0;
-    transform: translateY(50px);
     transition: all 0.9s ease;
 }
 
@@ -36,8 +34,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    opacity: 0;
-    transform: translateY(50px);
     transition: all 0.9s ease;
 }
 .secao:hover .containercard1,.secao:hover .containerTextos2{
