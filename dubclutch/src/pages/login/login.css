@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background: url(../../image/login-1200px.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*animation: gradientBackground 15s ease infinite;*/
+}
+
+
+.login-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease forwards;
+    background-color: rgba(16, 16, 16, 0.6);
+    backdrop-filter: blur(0.2rem);
+}
+
+.login-card {
+    justify-self: end;
+    border: 2px solid #cfcfcfe5;
+    border-radius: 10%;
+    width: 80%;
+    padding: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.title-login {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+
+.label-login {
+    color: white;
+    margin-top: 1rem;
+}
+
+input {
+    display: block;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #ffffff00;
+    color: white;
+    border: 1.5px solid #ffffff37;
+    border-radius: 0.5rem;
+}
+
+.img-input {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    background-color: #f3eded;
+    color: #000;
+}
+
+button {
+    min-width: 100%;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #7F30FF;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+
+button:hover {
+    transition: all 0.6s;
+    box-shadow: 0 0 0.8rem #ffffff7d;
+    transform: translateY(-0.1rem);
+}
+
+.bg-google {
+    background-color: #26272B;
+    color: #bdbaba;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+
+.texto-redir {
+    text-align: center;
+    color: #808080;
+    font-size: 0.9rem;
+}
+
+
+
+
+#formularioRegistro {
+    display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width:100px) and (max-width: 575.98px) {
+    body{
+        background: url(../../image/login-576px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container-preto {
+        display: none;
+    }
+
+    .login-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .login-card{
+        padding: 1.5rem;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        background: url(../../image/login-576px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container-preto {
+        display: none;
+    }
+
+    .login-container {
+        width: 100%;
+    }
+
+    .login-card{
+        width: 60%;
+        height: 70%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-preto {
+        display: none;
+    }
+
+    body{
+        background: url(../../image/login-768px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .login-container {
+        width: 50%;
+    }
+
+    .login-card{
+        padding: 1.5rem;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .login-container{
+        width: 45%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-2.5rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2.25rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
