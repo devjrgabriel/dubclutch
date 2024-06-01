@@ -1,9 +1,8 @@
-import React ,{Component}from "react";
-import {MostrarLogin,MostrarRegistro,registrar,login} from'./login.js'
-import'./login.css'
-import'./login.js'
-import GoogleImg from '../../image/google.png' 
-import { Link } from "react-router-dom";
+import React from "react";
+import GoogleImg from '../../image/google.png';
+import './login.css';
+import './login.js';
+import { MostrarLogin, MostrarRegistro, login, registrar } from './login.js';
 
 export default function Login() {
    return (
@@ -32,7 +31,7 @@ export default function Login() {
                   <label className="label-login">Senha:</label>
                   <input type="password" id="Registrar-password" placeholder="Digite sua senha..." required />
                   <button type="submit" className="secondary-bg secondary-bg-hover"
-                      onClick={registrar}>Cadastrar</button>
+                     onClick={registrar}>Cadastrar</button>
 
                   <div className="texto-redir">Ja tem uma conta? <a href="#" onClick={MostrarLogin}>Faça seu
                      Login</a></div>
