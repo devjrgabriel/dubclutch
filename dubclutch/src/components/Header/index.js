@@ -18,10 +18,8 @@ export function Header() {
             </div>
             <div>
                 <button className="botaoNavbar">
-                    <Link to="/">
-                        Entrar
+                    <Link to="/">Entrar</Link>
                     </button>
-                </Link>
             </div>
         </nav>
 

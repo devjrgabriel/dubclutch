@@ -11,7 +11,6 @@ body {
     background: url(../../image/login-1200px.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /*animation: gradientBackground 15s ease infinite;*/
 }
 
 
@@ -20,7 +19,8 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 39%;
+    width: 35%;
+    padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,92 +114,69 @@ button:hover {
     display: none;
 }
 
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (min-width:100px) and (max-width: 575.98px) {
+@media (min-width:320px) and (max-width: 480px){
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
     body{
         background: url(../../image/login-576px.png);
         background-size: cover;
         background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
     }
-    .container-preto {
-        display: none;
-    }
-
-    .login-container {
-        width: 100%;
-        height: 100%;
-    }
-
-    .login-card{
-        padding: 1.5rem;
-    }
-
-    input {
-        width: 100%;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    body{
-        background: url(../../image/login-576px.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .container-preto {
-        display: none;
-    }
-
-    .login-container {
-        width: 100%;
+    .login-container{
+        position: relative;
+        margin-right: 10%;
+        width: 30rem;
+        height: 28rem;
     }
 
     .login-card{
-        width: 60%;
-        height: 70%;
+        padding: 6%;
+        width: 25rem;
+        height: 20rem;
     }
 
-    input {
-        width: 100%;
+    input{
+        width: 92%;
     }
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .container-preto {
-        display: none;
-    }
-
+@media (min-width: 769px) and (max-width: 900px){
     body{
         background: url(../../image/login-768px.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
-
-    .login-container {
-        width: 50%;
-    }
-
-    .login-card{
-        padding: 1.5rem;
-    }
-
-    input {
-        width: 100%;
-    }
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
     .login-container{
         width: 45%;
     }
+
+    .login-card{
+        padding: 6%;
+    }
+
+    input{
+        width: 92%;
+    }
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1024px) {
+    .login-container{
+        width: 40%;
+    }
+
+    .login-card{
+        padding: 6%;
+    }
+
+    input{
+        width: 90%;
+    }
 }
+
 
 
 
