@@ -10,6 +10,7 @@ body {
     height: 100vh;
     background: url(../../image/login-1200px.png);
     background-size: cover;
+    
     background-repeat: no-repeat;
     /*animation: gradientBackground 15s ease infinite;*/
 }

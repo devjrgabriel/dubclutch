@@ -5,7 +5,26 @@
     list-style: none;
     font-family: "Poppins";
 }
-body{
+
+body {
     background-color: #000000;
+    scroll-behavior: smooth;
+    transition: scroll 0.5s ease-in-out;
+
 }
 
+body::-webkit-scrollbar {
+    position: absolute;
+    width: 5px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #880586;
+    border-radius: 5px; 
+  }
+
+body::-webkit-scrollbar-track {
+    background: #000000;
+
+}
