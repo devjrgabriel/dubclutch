@@ -17,8 +17,8 @@ export function Header() {
                 <Link className="item-nav" to="/" >Onde comprar</Link>
             </div>
             <div>
-                <button className="botaoNavbar">
-                    <Link to="/">
+                <Link to="/">
+                    <button className="botaoNavbar">
                         Entrar
                     </button>
                 </Link>
