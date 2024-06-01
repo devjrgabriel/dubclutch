@@ -30,13 +30,13 @@ export const Login = () => {
                   <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required placeholder="speedrun@gmail.com" className="inputForm" name="email" id="email" />
                   <label className="label-login">Senha:</label>
                   <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required placeholder="**********" className="inputForm" name="password" id="password" />
-                  <button type="submit" className="" onClick={login}>Entrar</button>
+                  <button type="submit" className="" >Entrar</button>
                   <button type="submit" className="bg-google"> <img className="img-input" src={GoogleImg} /> Continue com
                      Google</button>
                   <div className="texto-redir">Ainda não tem uma conta? <a href="#" onClick={MostrarRegistro}>Faça seu
                      cadastro</a></div>
                </form>
-               <form id="formularioRegistro" className="input-class" onsubmit="return registrar()">
+               <form id="formularioRegistro" className="input-class">
                   <h2 className="title-login">Faça o seu Cadastro</h2>
 
                   <label className="label-login">Usuario:</label>
