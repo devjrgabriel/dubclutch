@@ -3,7 +3,7 @@ import ImagemNavbar from '../../image/DUBCLUTCH.png';
 import './header.css';
 
 
-export default function Header() {
+export function Header() {
     return (
 
         <nav className="navbar">
