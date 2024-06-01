@@ -20,6 +20,7 @@ export function Footer() {
                             <span className='SubTituloConteudo'>Login</span>
                         </div>
                     </div>
+                    <div className="icons"></div>
                     <div className="cont2"></div>
 
                 </div>
