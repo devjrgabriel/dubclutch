@@ -5,7 +5,7 @@ import car3 from '../../image/car3.png';
 import cavalo from '../../image/cavalo.png';
 export const ConteinerSec = () => {
     return (
-        <div className="section2">
+        <div className="section2 secao">
             <div className="containerTextos2">
                 <span className="title2">Inspirados em nossas dicas!</span>
             </div>

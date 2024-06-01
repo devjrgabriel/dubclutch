@@ -19,6 +19,8 @@
     justify-content: space-around;
     align-items: center;
 
+    animation: fadeIn 2s ease forwards;
+    
 }
 
 .item-nav{

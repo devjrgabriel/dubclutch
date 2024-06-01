@@ -3,7 +3,7 @@ import './home1.css';
 
 export const ConteinerTerc = () => {
     return (
-        <section class="section3">
+        <section class="secao section3">
             <div class="div1secti">
                 <div class="containerTextos3">
                     <span class="title4">Descobrir</span>
@@ -12,16 +12,16 @@ export const ConteinerTerc = () => {
 
             </div>
             <div class="containercard1section3">
-                <div class="cardssection3 bkcard1">
+                <div class="cardssection3 bkcard1 cardssection3anm1">
                     <span class="titlecardsection3">Stages</span>
                 </div>
-                <div class="cardssection3 bkcard2">
+                <div class="cardssection3 bkcard2 cardssection3anm2">
                     <span class="titlecardsection3">Dinamômetro</span>
                 </div>
-                <div class="cardssection3 bkcard3">
+                <div class="cardssection3 bkcard3 cardssection3anm3">
                     <span class="titlecardsection3">Rodas</span>
                 </div>
-                <div class="cardssection3 bkcard4">
+                <div class="cardssection3 bkcard4 cardssection3anm4">
                     <span class="titlecardsection3">Mitos e Verdades</span>
                 </div>
             </div>

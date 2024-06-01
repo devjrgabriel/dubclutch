@@ -10,9 +10,9 @@ body {
     height: 100vh;
     background: url(../../image/login-1200px.png);
     background-size: cover;
+    
     background-repeat: no-repeat;
 }
-
 
 .login-container {
     position: absolute;
