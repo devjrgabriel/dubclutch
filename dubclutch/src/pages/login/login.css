@@ -10,8 +10,8 @@ body {
     height: 100vh;
     background: url(../../image/login-1200px.png);
     background-size: cover;
-    
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .login-container {
@@ -41,6 +41,7 @@ body {
 
 .title-login {
     color: #ffffff;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
@@ -51,6 +52,7 @@ body {
 }
 
 input {
+    margin-bottom: 0.3rem;
     display: block;
     padding: 0.4rem;
     padding-left: 1rem;
@@ -115,7 +117,26 @@ button:hover {
 }
 
 @media (min-width:320px) and (max-width: 480px){
+    body{
+        background: url(../../image/login-576px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .login-container{
+        width: 100%;
+        height: 95.8%;
+    }
 
+    .login-card{
+        padding: 4%;
+        margin-left: 5%;
+        width: 21rem;
+        height: 20rem;
+    }
+
+    input{
+        width: 92%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -123,24 +144,21 @@ button:hover {
         background: url(../../image/login-576px.png);
         background-size: cover;
         background-repeat: no-repeat;
-        align-items: center;
-        justify-content: center;
     }
     .login-container{
-        position: relative;
-        margin-right: 10%;
-        width: 30rem;
-        height: 28rem;
+        width: 100%;
+        height: 93.5%;
     }
 
     .login-card{
+        margin-left: 5%;
         padding: 6%;
         width: 25rem;
         height: 20rem;
     }
 
     input{
-        width: 92%;
+        width: 94%;
     }
 }
 
