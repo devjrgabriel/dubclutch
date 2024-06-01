@@ -20,8 +20,8 @@ export function Header() {
                 <button className="botaoNavbar">
                     <Link to="/">
                         Entrar
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </nav>
 
