@@ -118,7 +118,7 @@ button:hover {
 
 @media (min-width:320px) and (max-width: 480px){
     body{
-        background: url(../../image/login-576px.png);
+        background: url(../../image/login-576px-light.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -141,7 +141,7 @@ button:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
     body{
-        background: url(../../image/login-576px.png);
+        background: url(../../image/login-576px-light.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -164,7 +164,7 @@ button:hover {
 
 @media (min-width: 769px) and (max-width: 900px){
     body{
-        background: url(../../image/login-768px.png);
+        background: url(../../image/login-768px-light.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -194,37 +194,6 @@ button:hover {
         width: 90%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes gradientBackground {

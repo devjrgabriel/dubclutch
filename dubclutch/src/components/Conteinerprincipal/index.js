@@ -3,11 +3,11 @@ import './home1.css';
 export const Conteinerprincipal = () => {
     return (
         <>
-            <section class="section1 secao">
-                <div class="containerTextos1">
-                    <span class="title1">Lorem ipsum dolor sit.</span>
-                    <span class="Subtitulo1">Lorem ipsum dolor sit amet. Ut impedit fuga vel cupiditate quos et voluptas
-                        molestiae qui iste velit id consequatur omnis ut dignissimos reprehenderit.</span>
+            <section className="section1 secao">
+                <div className="containerTextos1">
+                    <p className="title1">Lorem ipsum dolor sit.</p>
+                    <p className="Subtitulo1">Lorem ipsum dolor sit amet. Ut impedit fuga vel cupiditate quos et voluptas
+                        molestiae qui iste velit id consequatur omnis ut dignissimos reprehenderit.</p>
                 </div>
 
             </section>
