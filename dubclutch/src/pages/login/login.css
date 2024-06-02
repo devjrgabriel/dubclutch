@@ -141,7 +141,7 @@ button:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
     body{
-        background: url(../../image/login-576px.png);
+        background: url(../../image/login-576px-light.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -219,37 +219,6 @@ button:hover {
         width: 90%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes gradientBackground {
