@@ -1,5 +1,5 @@
 .section1 {
-    background: url(../../image/image1home-light.png);
+    background: url(../../image/image1home.png);
     background-size: 100% 100%;
     background-size: cover;
     background-position: center;
@@ -27,8 +27,6 @@
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
-   
-
 }
 
 .Subtitulo1 {
@@ -134,9 +132,14 @@
     }
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1201px) and (max-width:1500){
     .section1{
-        height: 82vh;
+        height: 60vh;
     }
 }
 
+@media (min-width: 1501px){
+    .section1{
+        height: 65vh;
+    }
+}

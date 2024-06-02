@@ -216,3 +216,13 @@
         width: 35%;
     }
 }
+
+@media (min-width: 1201px) and (max-width:1500){
+    
+}
+
+@media (min-width: 1501px){
+    .cardssection3{
+        height: 30rem;
+    }
+}

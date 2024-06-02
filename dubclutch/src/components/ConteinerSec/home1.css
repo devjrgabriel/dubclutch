@@ -1,8 +1,7 @@
 
 .section2 {
-    background: url(../../image/container2-light.png);
+    background: url(../../image/background-DI.gif);
     width: 100%;
-    background-size: 100% 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,8 +21,7 @@
 .title2 {
     font-size: 2.7rem;
     font-weight: bold;
-    transition: all 0.9s ease;
-   
+    transition: all 0.9s ease; 
 }
 
 
@@ -187,7 +185,6 @@
     }
 
     .containercard1 {
-        margin-top: -2rem;
         width: 95%;
         flex-direction: column;
     }
@@ -298,8 +295,15 @@
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width:1500) {
     .cardssection {
         width: 28%;
     }
+}
+
+@media (min-width: 1501px){
+    .cardssection{
+        width: 22%;
+    }
+
 }

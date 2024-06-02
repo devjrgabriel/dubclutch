@@ -7,7 +7,6 @@
     justify-content: center;
     display: flex;
     justify-content: center;
-
 }
 
 .ItemsFooter{
@@ -72,4 +71,14 @@
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     color: rgb(204, 205, 206);
+}
+
+@media (min-width:320px) and (max-width: 480px){
+
+}
+
+@media (min-width: 1501px){
+    .ConteinerFooter{
+        width: 100%;
+    }
 }

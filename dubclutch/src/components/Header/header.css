@@ -135,7 +135,8 @@
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width:1500){
+
     .navbar{
         right: 10%;
         left: 10%;
@@ -144,4 +145,8 @@
     .logoNavbar>img {
         width: 12rem;
     }
+}
+
+@media (min-width: 1501px){
+
 }
