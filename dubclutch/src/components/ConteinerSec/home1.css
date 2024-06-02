@@ -1,6 +1,6 @@
 
 .section2 {
-    background: url(../../image/background-DI-light.gif);
+    background: url(../../image/container2-light.png);
     width: 100%;
     background-size: 100% 100%;
     background-size: cover;
@@ -43,7 +43,7 @@
 
 .cardssection {
     filter: saturate(0) brightness(0.3);
-    background-color: rgba(23, 22, 22, 0.03);
+    background-color: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(0.6rem);
     border: 1px solid rgba(255, 255, 255, 0.13);
     width: 26%;
