@@ -134,9 +134,14 @@
     }
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1201px) and (max-width:1500){
     .section1{
-        height: 82vh;
+        height: 60vh;
     }
 }
 
+@media (min-width: 1501px){
+    .section1{
+        height: 65vh;
+    }
+}
