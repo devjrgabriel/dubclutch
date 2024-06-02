@@ -1,4 +1,3 @@
-
 .ConteinerFooter {
     background-color: rgb(0, 0, 0);
     position: absolute;
@@ -43,7 +42,6 @@
     margin-top: 1rem;
     font-size: 0.8rem;
     color: rgb(184, 184, 184);
-
 }
 .conteudo2{
     background-color: rgb(40, 31, 31);
@@ -73,8 +71,52 @@
     color: rgb(204, 205, 206);
 }
 
-@media (min-width:320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 480px){
+    .ConteinerFooter{
+        width: 100%;
+    }
 
+    .ItemsFooter{
+        width: 100%;
+    }
+
+    .cont1{
+        width: 100%;
+    }
+
+    .ImagemFooter{
+        display: none;
+    }
+
+    .IconFooter{
+        width: 7%;
+    }
+
+    .navFooter{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .ItemsFooter{
+        width: 100%;
+    }
+
+    .cont1{
+        width: 100%;
+    }
+
+    .ImagemFooter{
+        display: none;
+    }
+    .IconFooter{
+        width: 7%;
+    }
+
+    .navFooter{
+        font-size: 0.7rem;
+    }
 }
 
 @media (min-width: 1501px){
