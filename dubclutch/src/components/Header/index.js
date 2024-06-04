@@ -13,7 +13,7 @@ export function Header() {
 
             <div>
                 <Link className="item-nav active" to="/Home">Home</Link>
-                <Link className="item-nav" to="/Teste" >Teste</Link>
+                <Link className="item-nav" to="/Stages" >Teste</Link>
             </div>
             <div>
                 <button className="botaoNavbar">

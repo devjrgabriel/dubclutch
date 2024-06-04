@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
 import './stages.css';
 
-
-export function Stages(){
+export const ContainerStages =() =>{
     return(
-        <div>
+        <div className='containerStages'>
 
 
         </div>
