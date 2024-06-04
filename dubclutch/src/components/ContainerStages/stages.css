@@ -1,5 +1,5 @@
 .section1 {
-    background: url(../../image/image1home.png);
+    background: url(../../image/stages.png);
     background-size: 100% 100%;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@
 }
 
 .title1 {
-    width: 50%;
+    width: 500%;
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 0.2rem;

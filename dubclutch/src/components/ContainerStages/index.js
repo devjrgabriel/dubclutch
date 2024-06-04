@@ -5,10 +5,12 @@ export const ContainerStages =() =>{
                     <>
             <section className="section1 secao">
                 <div className="containerTextos1">
-                    <p className="title1"></p>
-                    <p className="Subtitulo1"></p>
+                    <p className="title1">
+                        aaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    </p>
+                    <p className="Subtitulo1">
+                    </p>
                 </div>
-
             </section>
         </>
         )
