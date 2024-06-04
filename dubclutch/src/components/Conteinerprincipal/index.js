@@ -5,9 +5,8 @@ export const Conteinerprincipal = () => {
         <>
             <section className="section1 secao">
                 <div className="containerTextos1">
-                    <p className="title1">Lorem ipsum dolor sit.</p>
-                    <p className="Subtitulo1">Lorem ipsum dolor sit amet. Ut impedit fuga vel cupiditate quos et voluptas
-                        molestiae qui iste velit id consequatur omnis ut dignissimos reprehenderit.</p>
+                    <p className="title1">Aprenda tudo sobre a sua máquina!</p>
+                    <p className="Subtitulo1">Aqui no DubClutch você pode aprender tudo sobre o seu carro com informativos simples e rápidos!</p>
                 </div>
 
             </section>
