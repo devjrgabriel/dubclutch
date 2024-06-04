@@ -2,9 +2,14 @@ import './stages.css';
 
 export const ContainerStages =() =>{
     return(
-        <div className='containerStages'>
+                    <>
+            <section className="section1 secao">
+                <div className="containerTextos1">
+                    <p className="title1"></p>
+                    <p className="Subtitulo1"></p>
+                </div>
 
-
-        </div>
+            </section>
+        </>
         )
 }
