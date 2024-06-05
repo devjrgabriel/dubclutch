@@ -40,14 +40,26 @@ export const ContainerStages =() =>{
                 <div className="cardsStagesection">
                     <div className="textcardStageSection2">
                         <span className="titleStagecards">Stage 3</span>
-                        <span className="subtituloStagecards">Stage 2 - Motor 4B11T- I4</span>
+                        <span className="subtituloStagecards">Stage 3 - O stage 3 é a combinação dos outros 2 stages, com algumas coisinhas a mais pra ganho de potencia como:<br/>
+                                                                Troca da turbina por uma turbina de maior eficiência<br/>
+                                                                Instalação de Wastegate (opcional)<br/>
+                                                                Troca dos bicos de injeção(opcional) <br/>
+                                                                Instalação de sistema surge-tank (opcional)<br/>
+                                                                Escape full (opcional)<br/>
+                    </span>
                     </div>
                 </div>
 
                 <div className="cardsStagesection">
                     <div className="textcardStageSection2">
                         <span className="titleStagecards">Stage 4</span>
-                        <span className="subtituloStagecards">Stage 2 - Motor 4B11T- I4</span>
+                        <span className="subtituloStagecards">Stage 4 - Esse é o nivel mais avançado e aprimorado, com troca dos componentes internos do motor para maior resistencia de potencia, assim podendo ter mais cavalos de potencia e torque.<br/>
+                            Troca de biela. Original para Forjada<br/>
+                            Troca de pistão. Original para Forjado<br/>
+                            Prisioneiros de cabeçote forjados (depende do motor)<br/>
+                            Cabeçote refeito (depende do projeto)<br/>
+                            Coletor tubular (opcional)<br/>
+                    </span>
                     </div>
                 </div>
 
