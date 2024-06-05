@@ -5,8 +5,8 @@ export const Conteinerprincipal = () => {
         <>
             <section className="section1 secao">
                 <div className="containerTextos1">
-                    <p className="title1">Aprenda tudo sobre a sua máquina!</p>
-                    <p className="Subtitulo1">Aqui no DubClutch você pode aprender tudo sobre o seu carro com informativos simples e rápidos!</p>
+                    <p className="title1">Aprenda tudo sobre a sua <span>máquina</span>!</p>
+                    <p className="Subtitulo1">Aqui no <span>DubClutch</span> você pode aprender tudo sobre o seu carro com informativos <span>simples</span> e <span>rápidos</span>!</p>
                 </div>
 
             </section>

@@ -7,7 +7,8 @@ body {
     font-family: "Poppins";
     margin: 0;
     display: flex;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background: url(../../image/login-1200px.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,7 +121,6 @@ button:hover {
     body{
         background: url(../../image/login-576px.png);
         background-size: cover;
-        background-repeat: no-repeat;
     }
     .login-container{
         width: 100%;
@@ -141,9 +141,8 @@ button:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
     body{
-        background: url(../../image/login-576px-light.png);
+        background: url(../../image/login-576px.png);
         background-size: cover;
-        background-repeat: no-repeat;
     }
     .login-container{
         width: 100%;

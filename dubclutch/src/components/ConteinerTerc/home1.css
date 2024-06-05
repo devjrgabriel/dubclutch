@@ -61,7 +61,7 @@
 
 .cardssection3:hover{
     width: 32%;
-    filter: saturate(1.2);
+    filter: saturate(1);
     transition: all 0.4s;
 }
 
@@ -74,9 +74,8 @@
     width: 100%;
     letter-spacing: 0.3rem;
     font-size: 1.2rem;
+    font-weight: 500;
     text-shadow: 0 0 0.8rem #000000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #cdcdcd;
     transition: all 0.8s;
 }
 
@@ -195,7 +194,7 @@
     }
 
     .containercard1section3{
-        width: 80;
+        width: 80%;
     }
 
     .cardssection3{
@@ -215,10 +214,6 @@
     .cardssection3:hover{
         width: 35%;
     }
-}
-
-@media (min-width: 1201px) and (max-width:1500){
-    
 }
 
 @media (min-width: 1501px){
