@@ -7,7 +7,7 @@ export const ConteinerSec = () => {
     return (
         <div className="section2 secao">
             <div className="containerTextos2">
-                <span className="title2">Inspirados em nossas dicas!</span>
+                <span className="title2">Inspirados em <span>nossas</span> dicas!</span>
             </div>
             <div className="containercard1">
                 <div className="cardssection">

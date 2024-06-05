@@ -24,6 +24,10 @@
     transition: all 0.9s ease; 
 }
 
+.title2 span{
+    color: blueviolet;
+}
+
 
 .containercard1 {
     margin-top: 1rem;
