@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Inter";
+}
+
+
+
+.containerNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.ulNavbar {
+    gap: 5px;
+}
+
+.ClassDivFonte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    font-size: 1.1rem;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #27ae60;
+}
+
+
+
+
+
+.modoEscuroClass {
+    background-color: #333;
+}
+
+.color-blind-mode {
+    background-color: #f2f2f2;
+}
+
+.modoEscuroClass nav {
+    background-color: #111;
+}
+
+.color-blind-mode nav {
+    background-color: #777;
+}
+
+
+
+.popup {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background-color: #fff;
+    padding: 1% 2%;
+    border-radius: 5px;
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.3);
+    display: none;
+}
