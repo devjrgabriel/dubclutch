@@ -1,5 +1,5 @@
 import './home1.css';
-
+import {Link} from "react-router-dom";
 
 export const ConteinerTerc = () => {
     return (
@@ -13,7 +13,8 @@ export const ConteinerTerc = () => {
             </div>
             <div class="containercard1section3">
                 <div class="cardssection3 bkcard1 cardssection3anm1">
-                    <span class="titlecardsection3">Stages</span>
+                <Link to="/Stages" className="titlecardsection3">
+                    <span class="titlecardsection3">Stages</span></Link>
                 </div>
                 <div class="cardssection3 bkcard2 cardssection3anm2">
                     <span class="titlecardsection3">Dinamômetro</span>
